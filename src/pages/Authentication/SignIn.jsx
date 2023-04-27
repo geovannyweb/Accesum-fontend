@@ -16,18 +16,9 @@ const SignIn = () => {
 
               <Link className='w-7/12 inline-block' to='/'>
               <img className='h-auto' src={Logo} alt='Logo' />
-             
-                
-
               </Link>
 
-              
 
-
-
-              <span className='mt-15 inline-block'>
-           
-              </span>
             </div>
           </div>
 
@@ -41,7 +32,7 @@ const SignIn = () => {
               <form>
                 <div className='mb-4'>
                   <label className='mb-2.5 block font-medium text-black dark:text-white'>
-                    Correo Electronico:
+                    Correo Electronico
                     
                   </label>
                   <div className='relative'>
@@ -73,7 +64,7 @@ const SignIn = () => {
 
                 <div className='mb-6'>
                   <label className='mb-2.5 block font-medium text-black dark:text-white'>
-                    Contrase&ntilde;a:
+                    Contrase&ntilde;a
                   </label>
                   <div className='relative'>
                     <input
